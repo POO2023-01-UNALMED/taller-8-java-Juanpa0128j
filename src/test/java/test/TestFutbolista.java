@@ -119,7 +119,7 @@ public class TestFutbolista {
 		
 		Futbolista f3 = f1;
 		boolean ok = false;
-		if (!f1.equals(f2) && f1.equals(f3)) {
+		if (f1.equals(f2) && f1.equals(f3)) {
 			ok = true;
 		}
 		assertTrue(ok, "Hay un problema en el metodo equals de la clase Futbolista");
